@@ -44,7 +44,7 @@ Esse jogo foi feito para melhorar minhas habilidades em desenvolvimento python, 
 ---
 
 ### Imagem do jogo:
-Aqui está a tela final do jogo Pedra, Papel e Tesoura: <img src="img/imagemExemplo.png" width="500" alt="Exemplo da tela do jogo">
+Aqui está um exemplo da tela final do jogo Pedra, Papel e Tesoura: <img src="img/imagemExemplo.png" width="500" alt="Exemplo da tela do jogo">
 
 ---
 
