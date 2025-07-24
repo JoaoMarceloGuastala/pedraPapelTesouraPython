@@ -3,7 +3,7 @@ Este é um jogo simples desenvolvido em **PYTHON**para jogar Pedra, Papel e Teso
 
 ---
 
-### ### 🕹 Como Jogar:
+### 🕹 Como Jogar:
 > No momento, não é possível jogar o jogo online. (Por enquanto...)
 
 - ### Primeiro método: Clonando o repositório
