@@ -5,12 +5,8 @@ from random import choice
 from time import sleep
 
 alternativas = ['pedra', 'papel', 'tesoura']
-alternativas_contra_usuario = {'1': 'pedra', '2': 'papel', '3': 'tesoura'}
-vitoria = {
-    'pedra': 'tesoura',
-    'papel': 'pedra',
-    'tesoura': 'papel',
-}
+alternativas_contra_usuario = {'1': 'pedra', '2': 'papel','3': 'tesoura'}
+vitoria = {'pedra': 'tesoura','papel': 'pedra','tesoura': 'papel',}
 
 # Achei importante colocar esse def porque consegui fazer com que ele funcine em todos os simtemas operacionais.
 def limpar_tela():
@@ -76,7 +72,9 @@ def completo():
         recomecar = input("Deseja jogar novamente? (s/n): ").strip().lower()
 
         if recomecar != 's':
-            print('Obrigado e até a próxima!')
-            break
-
+            certeza_saida = input('\033[1;49;35mTem certeza que deseja sair?\033[0m (s/n): ').strip().lower()
+            
+            if certeza_saida != 'n':
+                print('Obrigado e até a próxima!')
+                break
 completo()
